@@ -7,7 +7,7 @@ const start = async () => {
   try {
     await server.createServer();
   } catch (err) {
-    console.log(err);
+    console.log("error", err);
     process.exit(1);
   }
 };
